@@ -1,0 +1,25 @@
+{
+  "info": {
+    "name": "review"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "review": {
+      "type": "string"
+    },
+    "rating": {
+      "type": "integer"
+    },
+    "idrestaurant": {
+      "type": "string"
+    }
+  },
+  "connection": "default",
+  "collectionName": "reviews"
+}

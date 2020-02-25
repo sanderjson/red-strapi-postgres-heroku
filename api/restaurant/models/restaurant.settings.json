@@ -1,0 +1,34 @@
+{
+  "info": {
+    "name": "restaurant"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "seating": {
+      "type": "integer"
+    },
+    "patio": {
+      "type": "boolean"
+    },
+    "idnumber": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "dining": {
+      "type": "string"
+    }
+  },
+  "connection": "default",
+  "collectionName": "restaurants"
+}
