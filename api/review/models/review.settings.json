@@ -1,4 +1,6 @@
 {
+  "connection": "default",
+  "collectionName": "reviews",
   "info": {
     "name": "review"
   },
@@ -11,7 +13,7 @@
       "type": "string"
     },
     "review": {
-      "type": "string"
+      "type": "text"
     },
     "rating": {
       "type": "integer"
@@ -19,7 +21,5 @@
     "idrestaurant": {
       "type": "string"
     }
-  },
-  "connection": "default",
-  "collectionName": "reviews"
+  }
 }

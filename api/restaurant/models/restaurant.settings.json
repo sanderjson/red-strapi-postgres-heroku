@@ -1,4 +1,6 @@
 {
+  "connection": "default",
+  "collectionName": "restaurants",
   "info": {
     "name": "restaurant"
   },
@@ -11,7 +13,7 @@
       "type": "string"
     },
     "description": {
-      "type": "string"
+      "type": "text"
     },
     "seating": {
       "type": "integer"
@@ -28,7 +30,5 @@
     "dining": {
       "type": "string"
     }
-  },
-  "connection": "default",
-  "collectionName": "restaurants"
+  }
 }
