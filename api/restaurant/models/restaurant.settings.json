@@ -29,6 +29,9 @@
     },
     "dining": {
       "type": "string"
+    },
+    "url": {
+      "type": "string"
     }
   }
 }
